@@ -3,23 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>支持 · 整合</title>
+<title>支持 · whyme</title>
 <meta name="robots" content="index,follow">
 <style>
 :root { color-scheme: light dark; }
 * { box-sizing: border-box; }
-body {
-  margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.65; font-size: 17px; background: #f6f7f9; color: #1c1c1e;
-}
-@media (prefers-color-scheme: dark) {
-  body { background: #0e0e10; color: #f2f2f7; }
-  .card { background: #1c1c1e; box-shadow: none; }
-  a { color: #6cb6ff; }
-  nav a { color: #aeaeb2; }
-  .meta { color: #aeaeb2; }
-}
-a { color: #0a66c2; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Helvetica Neue", Arial, sans-serif; line-height: 1.65; font-size: 17px; background: #f6f7f9; color: #1c1c1e; }
+@media (prefers-color-scheme: dark) { body { background: #0e0e10; color: #f2f2f7; } .card { background: #1c1c1e; box-shadow: none; } a { color: #6cb6ff; } nav a { color: #aeaeb2; } }
+a { color: #0a66c2; word-break: break-word; }
 .wrap { max-width: 40rem; margin: 0 auto; padding: 1.25rem 1.1rem 3rem; }
 .card { background: #fff; border-radius: 16px; padding: 1.35rem 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); }
 nav { display: flex; flex-wrap: wrap; gap: .75rem 1rem; margin-bottom: 1rem; font-size: .92rem; }
@@ -27,26 +18,49 @@ nav a { text-decoration: none; color: #636366; }
 nav a[aria-current="page"] { color: inherit; font-weight: 600; }
 h1 { font-size: 1.55rem; line-height: 1.3; margin: 0 0 .85rem; }
 h2 { font-size: 1.15rem; margin: 1.5rem 0 .55rem; }
-p { margin: .65rem 0; }
-.meta { color: #636366; font-size: .95rem; }
-ul { padding-left: 1.2rem; margin: .5rem 0 .9rem; }
-li { margin: .35rem 0; }
+h3 { font-size: 1.02rem; margin: 1.2rem 0 .45rem; }
+p { margin: .65rem 0; } ul { padding-left: 1.2rem; margin: .5rem 0 .9rem; } li { margin: .35rem 0; }
 footer { margin-top: 1.5rem; font-size: .85rem; color: #8e8e93; }
 </style>
 </head>
-<body>
-  <div class="wrap">
-    <nav><a href="../privacy/zh-Hans.html">隐私政策</a> · <a href="../support/zh-Hans.html">支持</a><br><a href="zh-Hans.html" aria-current="page">中文</a> · <a href="en.html">English</a></nav>
-    <article class="card">
-<h1>支持（草案，未发布）</h1>
-<p>感谢使用「整合」。</p>
+<body><div class="wrap"><nav><a href="../privacy/zh-Hans.html">隐私政策</a><a href="../support/zh-Hans.html" aria-current="page">支持</a><a href="en.html">English</a></nav><main class="card">
+<h1>whyme · 支持</h1>
+<p>whyme 把常用 App 集中整理，一点即开。免费，无内购、无订阅、无广告，无需登录。支持简体中文和 English。</p>
+<h2>主要功能</h2>
+<ul>
+<li><strong>App 库与搜索</strong>：内置 2,000+ 个 App 的目录，可按名称、拼音、首字母搜索；库里没有的可以联网在 App Store 里搜索后加入。</li>
+<li><strong>类目与快捷栏</strong>：类目可改名、增删、排序；快捷栏最多 7 个位置，可放 App 或类目。</li>
+<li><strong>一点即开</strong>：通过 iOS 的 URL Scheme / 通用链接打开第三方 App；打不开时停在 whyme 里提示「暂时打不开，已上报」，不会自动跳到 App Store。</li>
+<li><strong>分享加入</strong>：在 App Store 里分享某个 App →选 whyme，即可加入。</li>
+<li><strong>扫一扫</strong>：可用 whyme 自带的扫码，也可在「扫一扫打开方式」中选择用某个已装 App 的扫码功能。</li>
+<li><strong>iPhone Duo 适配</strong>：合上（外屏）、展开竖屏 / 横屏、直板 iPhone 都有对应布局；外屏可选左右手，每排 3 或 4 列。</li>
+<li><strong>背景壁纸</strong>：自带背景按「开合联动」「风景」分类，开合联动背景合上和打开显示不同画面；也可以用相册里的图片。</li>
+<li><strong>灵动岛返回</strong>：打开其他 App 后，可从灵动岛一键回到 whyme（可在设置关闭）。</li>
+<li><strong>备份与恢复</strong>：导出 / 导入 JSON 备份（类目、入口、动作、快捷位）。</li>
+<li><strong>可选「DUO打开器」快捷指令</strong>：默认关闭，只有你自己导入同名快捷指令后才可启用，直达链接失败时才会用它。</li>
+</ul>
 <h2>常见问题</h2>
-<ul><li><strong>打不开某个 App</strong>：若没有可用打开方式，会尝试打开 App Store 页面；能否下载取决于你的 App Store 账户地区。</li><li><strong>分享加入</strong>：系统分享中选择「整合」，可将 App Store 链接加入库或「已装 App」。</li><li><strong>语言</strong>：设置 → 语言 → 跟随系统 / 简体中文 / English。</li></ul>
-<h2>联系</h2>
-<ul><li>邮箱：<a href="mailto:weimikehu@gmail.com">weimikehu@gmail.com</a></li></ul>
-<p>功能、崩溃或隐私相关问题欢迎来信。</p>
-    </article>
-    <footer>Zhenghe / 整合 · GitHub Pages</footer>
-  </div>
-</body>
-</html>
+<p><strong>某个 App 打不开？</strong>
+不少 App 没有公开的打开方式。whyme 会提示「暂时打不开，已上报」，并自动上报这个 App 的 App Store 编号、地区和名称（不含个人信息），我们补上打开方式后会通过 App 库更新自动生效，无需更新 whyme。</p>
+<p><strong>whyme 会读取我装了哪些 App 吗？</strong>
+不会。whyme 不读取已安装 App 列表，也不修改系统主屏。「是否已安装」只对少数声明过的 App 做系统允许的检测，检测不到不代表没装。</p>
+<p><strong>我的数据存在哪里？</strong>
+类目、快捷栏、壁纸等都只存在你的手机上。会发到网上的只有：你主动提交的反馈、打不开或库里没有的 App 的自动上报（App Store 编号、地区、名称）、App 库更新所需的推送令牌，以及发给 Apple 的 App Store 搜索。详见隐私政策。</p>
+<p><strong>换手机怎么办？</strong>
+设置 → 备份与恢复，导出 JSON 文件，在新手机的 whyme 里导入。</p>
+<p><strong>怎么切换语言？</strong>
+设置 → 语言 / Language：跟随系统 / 简体中文 / English。</p>
+<p><strong>为什么需要相机权限？</strong>
+只在使用「扫一扫」时用来识别二维码，画面不会上传。</p>
+<p><strong>为什么搜不到某个 App？</strong>
+App 库里没有的话，可以用「在 App Store 搜索」，或者在 App Store 里分享该 App 到 whyme。部分 App 只在特定地区上架。</p>
+<p><strong>whyme 收费吗？</strong>
+完全免费，没有内购、订阅或广告。</p>
+<h2>反馈与联系</h2>
+<ul>
+<li>App 内：设置 → 反馈问题 / 提需求（可附最多 3 张截图，联系方式选填）。</li>
+<li>邮箱：<a href="mailto:weimikehu@gmail.com">weimikehu@gmail.com</a></li>
+<li>隐私政策：<a href="https://wemeet9331-web.github.io/duo-applib/privacy/zh-Hans.html">https://wemeet9331-web.github.io/duo-applib/privacy/zh-Hans.html</a></li>
+<li>App 内设置页也有「隐私政策」「支持」链接。</li>
+</ul>
+</main><footer>© 2026 whyme · weimikehu@gmail.com</footer></div></body></html>

@@ -75,8 +75,9 @@ Contact: <a href="mailto:weimikehu@gmail.com">weimikehu@gmail.com</a></p>
 <li>Rate limiting uses a one-way hash of your IP that is kept in memory only, never written to disk, and expires within 24 hours.</li>
 <li>Server error logs may record a connecting IP and are used only for troubleshooting.</li>
 <li><strong>Retention</strong>:</li>
-<li>Access and error logs are kept for up to 14 days.</li>
-<li>Feedback is kept for up to 12 months after we handle it. You can ask us to delete it sooner at any time.</li>
+<li>Archived access and error logs from the report.whyme.vip reverse proxy are kept for up to 14 days.</li>
+<li>The server's system service log records only the time, request path and status code, with no IP address or personal information. It is cleared automatically on the system's default schedule.</li>
+<li>Feedback is kept for up to 12 months from when we receive it. You can ask us to delete it sooner at any time.</li>
 <li>Automatic reports are stored as per-app aggregates with no personal data and are kept for up to 24 months.</li>
 <li>Push tokens are deleted as soon as they become invalid, or after 12 months with no update.</li>
 </ul>
